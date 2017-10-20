@@ -881,19 +881,22 @@ ol,
 form {
   margin-bottom: 2.5rem; }
 
-img:hover {
-  opacity: 0.5;
-  bottom: 2rem; }
+img {
+  cursor: pointer; }
+  img:hover {
+    opacity: 0.5;
+    bottom: 2rem; }
 
 .fade {
-  animation: fadein 3s;
-  -moz-animation: fadein 3s;
+  animation: fadein 2.6s;
+  -moz-animation: fadein 2.6s;
   /* Firefox */
-  -webkit-animation: fadein 3s;
+  -webkit-animation: fadein 2.6s;
   /* Safari and Chrome */
   -webkit-animation-delay: 0s;
   /* Safari */
-  animation-delay: 0s; }
+  animation-delay: 0s;
+  animation-fill-mode: backwards; }
 
 @keyframes fadein {
   from {
@@ -916,14 +919,15 @@ img:hover {
     opacity: 1; } }
 
 .fadevan {
-  animation: fadein 7.5s;
-  -moz-animation: fadein 7.5s;
+  animation: fadein 2.6s;
+  -moz-animation: fadein 2.6s;
   /* Firefox */
-  -webkit-animation: fadein 7.5s;
+  -webkit-animation: fadein 2.6s;
   /* Safari and Chrome */
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 1.3s;
   /* Safari */
-  animation-delay: 0s; }
+  animation-delay: 1.3s;
+  animation-fill-mode: backwards; }
 
 @keyframes fadein {
   from {
@@ -946,14 +950,15 @@ img:hover {
     opacity: 1; } }
 
 .fadesolar {
-  animation: fadein 9s;
-  -moz-animation: fadein 9s;
+  animation: fadein 2.6s;
+  -moz-animation: fadein 2.6s;
   /* Firefox */
-  -webkit-animation: fadein 9s;
+  -webkit-animation: fadein 2.6s;
   /* Safari and Chrome */
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 1.43s;
   /* Safari */
-  animation-delay: 0s; }
+  animation-delay: 1.43s;
+  animation-fill-mode: backwards; }
 
 @keyframes fadein {
   from {
@@ -976,14 +981,15 @@ img:hover {
     opacity: 1; } }
 
 .fademusic {
-  animation: fadein 10.5s;
-  -moz-animation: fadein 10.5s;
+  animation: fadein 2.6s;
+  -moz-animation: fadein 2.6s;
   /* Firefox */
-  -webkit-animation: fadein 10.5s;
+  -webkit-animation: fadein 2.6s;
   /* Safari and Chrome */
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 1.56s;
   /* Safari */
-  animation-delay: 0s; }
+  animation-delay: 1.56s;
+  animation-fill-mode: backwards; }
 
 @keyframes fadein {
   from {
@@ -1006,14 +1012,15 @@ img:hover {
     opacity: 1; } }
 
 .fadesectionheader {
-  animation: fadein 7.5s;
-  -moz-animation: fadein 7.5s;
+  animation: fadein 2.6s;
+  -moz-animation: fadein 2.6s;
   /* Firefox */
-  -webkit-animation: fadein 7.5s;
+  -webkit-animation: fadein 2.6s;
   /* Safari and Chrome */
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 1.3s;
   /* Safari */
-  animation-delay: 0s; }
+  animation-delay: 1.3s;
+  animation-fill-mode: backwards; }
 
 @keyframes fadein {
   from {
@@ -1036,14 +1043,15 @@ img:hover {
     opacity: 1; } }
 
 .fadesection {
-  animation: fadein 9s;
-  -moz-animation: fadein 9s;
+  animation: fadein 2.6s;
+  -moz-animation: fadein 2.6s;
   /* Firefox */
-  -webkit-animation: fadein 9s;
+  -webkit-animation: fadein 2.6s;
   /* Safari and Chrome */
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 1.3s;
   /* Safari */
-  animation-delay: 0s; }
+  animation-delay: 1.3s;
+  animation-fill-mode: backwards; }
 
 @keyframes fadein {
   from {
@@ -1066,14 +1074,15 @@ img:hover {
     opacity: 1; } }
 
 .fadeback {
-  animation: fadein 15s;
-  -moz-animation: fadein 15s;
+  animation: fadein 2.6s;
+  -moz-animation: fadein 2.6s;
   /* Firefox */
-  -webkit-animation: fadein 15s;
+  -webkit-animation: fadein 2.6s;
   /* Safari and Chrome */
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 2.6s;
   /* Safari */
-  animation-delay: 0s; }
+  animation-delay: 2.6s;
+  animation-fill-mode: backwards; }
 
 @keyframes fadein {
   from {

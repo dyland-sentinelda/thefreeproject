@@ -1,12 +1,13 @@
 img {
+    cursor: pointer;
     &:hover {
       opacity: 0.5;
       bottom: 2rem;
     }
   }
 
-$basefade: 3s;
-$basedelay: 2s;
+$basefade: 2.6s;
+$basedelay: 1.3s;
 
 @mixin fadedelay($fadetime, $delay) {
     animation: fadein $fadetime;
@@ -14,6 +15,7 @@ $basedelay: 2s;
     -webkit-animation: fadein $fadetime; /* Safari and Chrome */
     -webkit-animation-delay: $delay; /* Safari */
     animation-delay: $delay;
+    animation-fill-mode: backwards;    
 
     @keyframes fadein {
         from {
@@ -46,25 +48,25 @@ $basedelay: 2s;
 }
 
 .fadevan {
-    @include fadedelay($basefade*2.5, 0s);
+    @include fadedelay($basefade, $basedelay);
 }
 
 .fadesolar {
-    @include fadedelay($basefade*3, 0s);
+    @include fadedelay($basefade, $basedelay*1.1);
 }
 
 .fademusic {
-    @include fadedelay($basefade*3.5, 0s);
+    @include fadedelay($basefade, $basedelay*1.2);
 }
 
 .fadesectionheader {
-    @include fadedelay($basefade*2.5, 0s);    
+    @include fadedelay($basefade, $basedelay);    
 }
 
 .fadesection {
-    @include fadedelay($basefade*3, 0s);    
+    @include fadedelay($basefade, $basedelay);    
 }
 
 .fadeback {
-    @include fadedelay($basefade*5, 0s);    
+    @include fadedelay($basefade, $basedelay*2);    
 }
